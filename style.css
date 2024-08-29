@@ -64,6 +64,14 @@ a:hover {
   cursor: default;
 }
 
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.5);
+}
+
 /* HAMBURGER MENU */
 #hamburger-nav {
   display: none;
